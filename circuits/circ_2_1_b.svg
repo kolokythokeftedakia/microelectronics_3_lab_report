@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 201.3 136.1" style="enable-background:new 0 0 201.3 136.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'CMUConcrete-Italic';}
+	.st1{font-size:10px;}
+	.st2{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st3{font-size:5.83px;}
+	.st4{font-family:'Concrete-Math';}
+	.st5{font-size:10.8474px;}
+	.st6{fill:none;stroke:#000000;stroke-linecap:square;stroke-miterlimit:10;}
+	.st7{font-family:'GFSNeohellenic-Regular';}
+	.st8{font-size:8px;}
+	.st9{fill:#1B71BB;}
+	.st10{fill:#ED145B;}
+	.st11{fill:none;stroke:#ED145B;stroke-miterlimit:10;}
+	.st12{fill:#FFFFFF;}
+	.st13{letter-spacing:-3.4;}
+	.st14{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:7;}
+	.st15{font-family:'GFSNeohellenic-Bold';}
+</style>
+<g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_1_" x="34.1" y="94.5" width="28.3" height="22.7"/>
+			</defs>
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;fill:#0072BC;"/>
+			<clipPath id="SVGID_00000035519626275906300960000016751000203906106256_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<g>
+			<defs>
+				<rect id="SVGID_00000003071832396415577580000001585237128596811166_" x="34.1" y="50" width="28.3" height="22.7"/>
+			</defs>
+			<use xlink:href="#SVGID_00000003071832396415577580000001585237128596811166_"  style="overflow:visible;fill:#0072BC;"/>
+			<clipPath id="SVGID_00000071525132566078768920000013526943962256714174_">
+				<use xlink:href="#SVGID_00000003071832396415577580000001585237128596811166_"  style="overflow:visible;"/>
+			</clipPath>
+		</g>
+	</g>
+</g>
+<polygon points="158.8,59.2 158.8,63.5 153.1,63.5 153.1,62 90.8,62 90.8,72.7 62.4,72.7 62.4,50 90.8,50 90.8,60.6 153.1,60.6 
+	153.1,59.2 "/>
+<g>
+</g>
+<polygon points="201.2,103.8 201.2,108 195.5,108 195.5,106.6 133.2,106.6 133.2,117.2 104.8,117.2 104.8,94.6 133.2,94.6 
+	133.2,105.2 195.5,105.2 195.5,103.8 "/>
+<text transform="matrix(1 0 0 1 45.3913 44.411)" class="st0 st1">d</text>
+<polygon points="99.1,123.7 99.1,120.9 104.8,122.4 "/>
+<line class="st2" x1="99.1" y1="122.3" x2="68.1" y2="122.3"/>
+<polygon points="68.1,120.9 68.1,123.7 62.4,122.2 "/>
+<g>
+	<text transform="matrix(1 0 0 1 76.0078 130.8625)" class="st0 st1">λ</text>
+	<text transform="matrix(1 0 0 1 80.9861 132.1931)" class="st0 st3">g</text>
+	<text transform="matrix(1 0 0 1 83.0129 133.207)" class="st4 st5">∕ </text>
+	<text transform="matrix(1 0 0 1 86.6033 135.7554)" class="st4 st1">4</text>
+</g>
+<g>
+	<polygon points="5.6,44.6 5.6,47.4 0,45.9 	"/>
+	<line class="st6" x1="5.6" y1="46" x2="34.1" y2="46"/>
+</g>
+<text transform="matrix(1 0 0 1 3.7273 30.7)" class="st7 st8">Γραμμή</text>
+<text transform="matrix(1 0 0 1 2.731828e-02 40.3)" class="st7 st8">Εγκοπής</text>
+<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 40.4464 29.3404)" class="st9 st7 st8">Δοκίμιο κ/ο</text>
+<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 47.2347 36.1285)" class="st9 st7 st8">Με Υλικό</text>
+<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 67.8131 30.8795)" class="st7 st8">Μεταβλητό</text>
+<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 74.6012 37.668)" class="st7 st8">Βραχυκύκλωμα</text>
+<polygon points="56.7,47.4 56.7,44.6 62.4,46.1 "/>
+<line class="st2" x1="56.7" y1="46" x2="39.8" y2="46"/>
+<polygon points="39.8,44.6 39.8,47.4 34.1,45.9 "/>
+<polyline class="st2" points="34.1,50 147.5,50 147.5,72.7 34.1,72.7 "/>
+<g>
+	<text transform="matrix(1 0 0 1 44.6198 84.8552)" class="st10 st0 st1">Z</text>
+	<text transform="matrix(1 0 0 1 51.2264 88.1857)" class="st10 st0 st3">A</text>
+	<polygon class="st10" points="56.7,79.2 56.7,76.4 62.4,77.9 	"/>
+	<polyline class="st11" points="56.7,77.8 54,77.8 54,81.9 	"/>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 44.6198 129.1402)" class="st10 st0 st1">Z</text>
+	<text transform="matrix(1 0 0 1 51.2264 132.4708)" class="st10 st0 st3">B</text>
+	<polygon class="st10" points="56.7,123.5 56.7,120.7 62.4,122.2 	"/>
+	<polyline class="st11" points="56.7,122.1 54,122.1 54,126.2 	"/>
+</g>
+<polyline class="st2" points="34.1,94.6 147.5,94.6 147.5,117.2 34.1,117.2 "/>
+<g>
+	<text transform="matrix(1 0 0 1 43.2273 63.8324)" class="st12 st0 st1">Z</text>
+	<text transform="matrix(0.583 0 0 0.583 49.8337 67.1625)" class="st12 st0 st1 st13">0</text>
+	<text transform="matrix(0.583 0 0 0.583 50.9402 60.5023)" class="st12 st0 st1 st13">’</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 43.2274 108.3845)" class="st12 st0 st1">Z</text>
+	<text transform="matrix(0.583 0 0 0.583 49.8339 111.7146)" class="st12 st0 st1 st13">0</text>
+	<text transform="matrix(0.583 0 0 0.583 50.9403 105.0544)" class="st12 st0 st1 st13">’</text>
+</g>
+<line class="st14" x1="34.1" y1="1.5" x2="34.1" y2="134.6"/>
+<text transform="matrix(0.583 0 0 0.583 8.582 71.0876)"><tspan x="0" y="0" class="st15 st8">Μέτρηση</tspan><tspan x="29.5" y="0" class="st0 st8"> A</tspan></text>
+<text transform="matrix(0.583 0 0 0.583 8.4583 115.5898)"><tspan x="0" y="0" class="st15 st8">Μέτρηση</tspan><tspan x="29.5" y="0" class="st7 st8"> </tspan><tspan x="32.7" y="0" class="st0 st8">B</tspan></text>
+</svg>
