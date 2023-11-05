@@ -7,26 +7,28 @@
 \end{center}
 
 Στην πρώτη άσκηση μελετάται το κύκλωμα \ref{circ:1_schematic} το οποίο αποτελείται από δύο τελεστικούς ενισχυτές 741. Για την τροφοδοσία των τελεστικών ενισχυτών είναι $V_{CC}=15\unit{\volt}$ και $V_{EE}=15\unit{\volt}$. Οι δύο δίοδοι Zener (1N750) έχουν τάση Zener $V_Z=7.5\unit{\volt}$ και τάση στην ορθή πόλωση $V_D=0.7\unit{\volt}$.\par
-Βάσει των οδηγιών για την εύρεση των τιμών $R_1,R_f$ και $C$ προκύπτει $R_1=50\unit{\kilo\ohm}$, $R_1=35\unit{\kilo\ohm}$ και $C=4\unit{\nano\farad}$. Ωστόσο, επιλέχθηκαν οι πλησιέστερες τιμές που εμφανίζονται στα τυποποιημένα εξαρτήματα. Τελικα, το κύκλωμα υλοποιήθηκε με $R_1=47\unit{\kilo\ohm}$, $R_f=33\unit{\kilo\ohm}$ και $C=4.7\unit{\nano\farad}$.\par
+Για τους ωμικούς αντιστάτες είναι $R_2=4.7\unit{\kilo\ohm}$ και $R=40\unit{\kilo\ohm}$. Για τις υπόλοιπες αντιστάσεις, $R_1,R_f$, και τον πυκνωτή, $C$, βάσει των οδηγιών προκύπτει $R_1=50\unit{\kilo\ohm}$, $R_f=35\unit{\kilo\ohm}$ και $C=4\unit{\nano\farad}$. Ωστόσο, επιλέχθηκαν οι πλησιέστερες τιμές που εμφανίζονται στα τυποποιημένα εξαρτήματα. Τελικα, το κύκλωμα υλοποιήθηκε με $R_1=47\unit{\kilo\ohm}$, $R_f=33\unit{\kilo\ohm}$ και $C=4.7\unit{\nano\farad}$.\par
 
 \section{Θεωρητική μελέτη \& προσομοίωση}
 
 	\subsection{Περιγραφή της λειτουργίας του κυκλώματος}
+		\input{ask_01_sections/q1.tex}
 
-	\subsection{Προσομοίωση με PSpice}
+	% \subsection{Προσομοίωση με PSpice}
 
-	\subsection{Μέγιστη συχνότητα λειτουργίας}
+	% \subsection{Μέγιστη συχνότητα λειτουργίας}
 
-	\subsection{Ρύθμιση του πλάτους τους σήματος}
+	% \subsection{Ρύθμιση του πλάτους τους σήματος}
 
 \section{Εργαστηριακή εφαρμογή}
 
-	Οι κυματομορφές $V_{\mathrm{out}}, V_1$ και $V_2$ του κυκλώματος \ref{circ:1_schematic} σε διάστημα  $1.184\unit{\milli\second}$ για $R_1=47\unit{\kilo\ohm}$, $R_2=4.7\unit{\kilo\ohm}$, $R_v=39.4\unit{\kilo\ohm}\rightarrow R=40.4\unit{\kilo\ohm}$, $R_f=33\unit{\kilo\ohm}$ και $C=4.7\unit{\nano\farad}$ δίδονται στο διάγραμμα \ref{plot:1_lab_voltages}.
+	\subsection{Λήψη κυματομορφών $V_1$, $V_2$ και $V_{\mathrm{out}}$}
+		Οι κυματομορφές $V_{\mathrm{out}}, V_1$ και $V_2$ του κυκλώματος \ref{circ:1_schematic} σε διάστημα  $1.184\unit{\milli\second}$ για $R_1=47\unit{\kilo\ohm}$, $R_2=4.7\unit{\kilo\ohm}$, $R_v=39.4\unit{\kilo\ohm}\rightarrow R=40.4\unit{\kilo\ohm}$, $R_f=33\unit{\kilo\ohm}$ και $C=4.7\unit{\nano\farad}$ δίδονται στο διάγραμμα \ref{plot:1_lab_voltages}.
 
-	\begin{chart}[H]
-		\begin{center}
-			\input{oscilloscope.tex}
-			\caption{Οι τάσεις $V_1, V_2$ και $V_{\mathrm{out}}$ όπως μετρήθηκαν χρήσει του παλμογράφου στο εργαστήριο.}
-			\label{plot:1_lab_voltages}
-		\end{center}
-	\end{chart}
+		\begin{chart}[H]
+			\begin{center}
+				\input{oscilloscope.tex}
+				\caption{Οι τάσεις $V_1, V_2$ και $V_{\mathrm{out}}$ όπως μετρήθηκαν χρήσει του παλμογράφου στο εργαστήριο.}
+				\label{plot:1_lab_voltages}
+			\end{center}
+		\end{chart}
