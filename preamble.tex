@@ -29,6 +29,8 @@
 \usepackage{steinmetz}
 \usepackage{titlesec}
 \usepackage{etoolbox}
+\usepackage{pgfplots}
+\usepackage{wrapfig}
 \usepackage[language=greek,bibencoding=utf8,backend=biber]{biblatex}
 \addbibresource{references.bib}
 
@@ -37,7 +39,7 @@
 \let\oldcite\cite
 \renewcommand{\cite}[1]{\textcolor{darkgray}{\textsuperscript{\footnotesize\oldcite{#1}}}}
 \newfontfamily\ConcreteUp{CMU Concrete}
-\newfontfamily\chfnt{CMU Concrete}
+\newfontfamily\chfnt{GFS Didot}
 \DeclareFloatingEnvironment[name={Κύκλωμα}]{circuitfig}
 \DeclareFloatingEnvironment[name={Διάγραμμα}]{chart}
 \renewcommand{\(}{\left(}
