@@ -1,4 +1,3 @@
-# --jobname=Report_10417
 pdf: main.tex
 	lualatex --jobname=Tmima2_Omada4 main.tex
 	biber Tmima2_Omada4
