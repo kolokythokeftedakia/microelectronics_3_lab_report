@@ -1,8 +1,13 @@
+# GNU make
+ENGINE = lualatex
+BIB = biber
+JOB = Tmima2_Omada4
+
 pdf: main.tex
-	lualatex --jobname=Tmima2_Omada4 main.tex
-	biber Tmima2_Omada4
-	lualatex --jobname=Tmima2_Omada4 main.tex
-	lualatex --jobname=Tmima2_Omada4 main.tex
+	$(ENGINE) --jobname=$(JOB) main.tex
+	$(BIB) $(JOB)
+	$(ENGINE) --jobname=$(JOB) main.tex
+	$(ENGINE) --jobname=$(JOB) main.tex
 
 clean:
 	rm *.log
