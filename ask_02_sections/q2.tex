@@ -39,5 +39,32 @@
 	Η δημιουργία δύο διαφορετικών μονοπατιών φόρτισης και εκφόρτισης του πυκνωτή $C_2$, χρήσει των διόδων, επιτρέπει την προσαρμογή του duty cycle σε οποιοδήποτε επιθυμητό ποσοστό.\par
 
 \subsubsection{Ολοκληρωτής}
+	Για τα ρεύματα στο σχήμα του ολοκληρωτή ισχύει $i_i=i_f+i_C\Longleftrightarrow i_C=i_i-i_f$ (Kirchhoff's current law). Από τον νόμο του Ohm εύκολα προκύπτει πως
+	\begin{equation*}
+		i_i=\frac{V_1-V_C}{R}\quad\land\quad i_f=\frac{V_C-V_{\mathrm{out}}}{R},\quad R=10\unit{\kilo\ohm}.
+	\end{equation*}
+	Συνεπώς,
+	\begin{equation*}
+		i_C=\frac{V_1-V_C-\(V_C-V_{\mathrm{out}}\)}{R}=\frac{V_1+V_{\mathrm{out}}-2V_C}{R}.
+	\end{equation*}
+
+	Με αντικατάσταση της παραπάνω έκφρασης του ρεύματος $i_C$ στη σχέση τάσης---ρεύματος πυκνωτή $V_C=\displaystyle{\frac{1}{C}\int{i_C\dd{t}}}$ έχουμε
+	\begin{equation*}
+		V_C=\frac{1}{C}\int{\frac{V_1+V_{\mathrm{out}}-2V_C}{R}\dd{t}}
+	\end{equation*}
+	ή
+	\begin{equation}\label{eq:ask2:vc:int}
+		V_C=\frac{1}{R\cdot C}\int{\(V_1+V_{\mathrm{out}}-2V_C\)\dd{t}}
+	\end{equation}
+	Aπό τον διαιρέτη τάση στο δίκτυο ανάδρασης της αναστρέφουσας εισόδου του τελεστικού ενισχυτή προκύπτει πως $v_-=\frac{R}{R+R}V_{\mathrm{out}}\Longleftrightarrow v_-=\frac{1}{2}V_{\mathrm{out}}$. Ο τελεστικός ενισχυτής θεωρούμε πως βρίσκεται στη γραμμική περιοχή λειτουργίας του. Επομένως, η τάση της μη αναστρέφουσας εισόδου του είναι ίση με την τάσης της αναστρέφουσας εισόδου, δηλαδή $V_+=V_-=V_C$. Τότε θα είναι
+	\begin{equation}\label{eq:ask2:vout:vc}
+		V_C=\frac{1}{2}V_{\mathrm{out}}.
+	\end{equation}
+	Αντικαθιστώντας τη σχέση \eqref{eq:ask2:vout:vc} στη σχέση \eqref{eq:ask2:vc:int} έχουμε
+	\begin{equation}
+		\label{eq:ask2:integrator:vout:v1}
+		V_{\mathrm{out}}(t)=\frac{2}{R\cdot C}\int{V_1(t)\dd{t}}.
+	\end{equation}
+	Η σχέση \eqref{eq:ask2:integrator:vout:v1} είναι που δικαιολογεί τη λειτουργία του κυκλώματος ως ολοκληρωτή.\par
 
 \subsubsection{Συνολική λειτουργία}
