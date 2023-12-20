@@ -1,0 +1,21 @@
+\babel@toc {greek}{}\relax 
+\contentsline {chapter}{\numberline {1}Γεννήτρια τριγωνικών παλμών}{1}{chapter.1}%
+\contentsline {section}{\numberline {${\text {\chfnt {\greekscript \textalpha \textnumeralsigngreek }}}$}Θεωρητική μελέτη \& προσομοίωση}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {${\text {\chfnt {\greekscript \textalpha \textnumeralsigngreek }}}$.1}Περιγραφή της λειτουργίας του κυκλώματος}{1}{subsection.1.1.1}%
+\contentsline {subsubsection}{Noniverting Schmitt trigger}{1}{figure.1.1}%
+\contentsline {subsubsection}{Ολοκληρωτής}{2}{figure.1.1}%
+\contentsline {subsubsection}{}{2}{equation.1.1.1.2}%
+\contentsline {section}{\numberline {${\text {\chfnt {\greekscript \textbeta \textnumeralsigngreek }}}$}Εργαστηριακή εφαρμογή}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {${\text {\chfnt {\greekscript \textbeta \textnumeralsigngreek }}}$.1}Λήψη κυματομορφών $V_1$, $V_2$ και $V_{\mathrm {out}}$}{3}{subsection.1.2.1}%
+\contentsline {chapter}{\numberline {2}Γεννήτρια κλιμακωτής τάσης}{4}{chapter.2}%
+\contentsline {section}{\numberline {${\text {\chfnt {\greekscript \textalpha \textnumeralsigngreek }}}$}Θεωρητική μελέτη \& προσομοίωση}{4}{section.2.1}%
+\contentsline {subsection}{\numberline {${\text {\chfnt {\greekscript \textalpha \textnumeralsigngreek }}}$.1}Υπολογισμός στοιχείων του κυκλώματος}{4}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {${\text {\chfnt {\greekscript \textalpha \textnumeralsigngreek }}}$.2}Περιγραφή της λειτουργίας του κυκλώματος}{5}{subsection.2.1.2}%
+\contentsline {subsubsection}{Ασταθής πολυδονητής Α}{5}{subsection.2.1.2}%
+\contentsline {subsubsection}{BJT transistor στο reset του timer 555}{5}{subsection.2.1.2}%
+\contentsline {subsubsection}{Ασταθής πολυδονητής Β}{5}{subsection.2.1.2}%
+\contentsline {subsubsection}{Ολοκληρωτής}{6}{equation.2.1.2.4}%
+\contentsline {subsubsection}{Συνολική λειτουργία}{7}{equation.2.1.2.7}%
+\contentsline {section}{\numberline {${\text {\chfnt {\greekscript \textbeta \textnumeralsigngreek }}}$}Εργαστηριακή εφαρμογή}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {${\text {\chfnt {\greekscript \textbeta \textnumeralsigngreek }}}$.1}Λήψη κυματομορφών $V_1$, $V_{C1}$ και $V_2$}{7}{subsection.2.2.1}%
+\contentsline {chapter}{Αναφορές}{8}{chart.2.2}%
