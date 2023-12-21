@@ -1,0 +1,4 @@
+max(V(U1:+)) = 7.0205 V
+max(V(R2:2)) = 8.0655 V
+max(V(U2:OUT)) = 6.7789 V
+max(I(D1:CAT)) = 1.2045 mA

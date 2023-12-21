@@ -19,6 +19,7 @@ clean:
 	rm *.blg || true
 	rm *.xml || true
 	rm *.toc || true
+	rm main.synctex.gz || true
 
 # Windows
 w_clean:
@@ -30,3 +31,4 @@ w_clean:
 	del *.blg
 	del *.xml
 	del *.toc
+	del main.synctex.gz
