@@ -8,7 +8,7 @@
 \vspace*{-1cm}
 
 Στην πρώτη άσκηση μελετάται το κύκλωμα \ref{circ:1_schematic} το οποίο αποτελείται από δύο τελεστικούς ενισχυτές μΑ741. Για την τροφοδοσία των τελεστικών ενισχυτών είναι $V_{CC}=15\unit{\volt}$ και $V_{EE}=15\unit{\volt}$. Οι δύο δίοδοι Zener (1N750) έχουν τάση Zener $V_Z=7.5\unit{\volt}$ και τάση στην ορθή πόλωση $V_D=0.7\unit{\volt}$.\par
-Για τους ωμικούς αντιστάτες είναι $R_2=4.7\unit{\kilo\ohm}$ και $R=40\unit{\kilo\ohm}$. Για τις υπόλοιπες αντιστάσεις, $R_1,R_f$, και τον πυκνωτή $C$, βάσει των οδηγιών, προκύπτει $R_1=50\unit{\kilo\ohm}$, $R_f=35\unit{\kilo\ohm}$ και $C=4\unit{\nano\farad}$. Ωστόσο, επιλέχθηκαν οι πλησιέστερες τιμές που εμφανίζονται στα τυποποιημένα εξαρτήματα. Τελικα, το κύκλωμα υλοποιήθηκε με $R_1=47\unit{\kilo\ohm}$, $R_f=33\unit{\kilo\ohm}$ και $C=4.7\unit{\nano\farad}$.\par
+Για τους ωμικούς αντιστάτες είναι $R_2=4.7\kohm$ και $R=40\kohm$. Για τις υπόλοιπες αντιστάσεις, $R_1,R_f$, και τον πυκνωτή $C$, βάσει των οδηγιών, προκύπτει $R_1=50\kohm$, $R_f=35\kohm$ και $C=4\unit{\nano\farad}$. Ωστόσο, επιλέχθηκαν οι πλησιέστερες τιμές που εμφανίζονται στα τυποποιημένα εξαρτήματα. Τελικα, το κύκλωμα υλοποιήθηκε με $R_1=47\kohm$, $R_f=33\kohm$ και $C=4.7\unit{\nano\farad}$.\par
 
 \section{Θεωρητική μελέτη \& προσομοίωση}
 
@@ -19,14 +19,15 @@
 	\subsection{Προσομοίωση με PSpice}
 		\input{ask_01_sections/q4.tex}
 
-	% \subsection{Μέγιστη συχνότητα λειτουργίας}
+	\subsection{Μέγιστη συχνότητα λειτουργίας}
+		\input{ask_01_sections/q5.tex}
 
 	% \subsection{Ρύθμιση του πλάτους τους σήματος}
 
 \section{Εργαστηριακή εφαρμογή}
 
 	\subsection{Λήψη κυματομορφών $V_1$, $V_2$ και $V_{\mathrm{out}}$}
-		Οι κυματομορφές $V_{\mathrm{out}}, V_1$ και $V_2$ του κυκλώματος \ref{circ:1_schematic} σε διάστημα  $1.184\unit{\milli\second}$ για $R_1=47\unit{\kilo\ohm}$, $R_2=4.7\unit{\kilo\ohm}$, $R_v=39.4\unit{\kilo\ohm}\Rightarrow R=40.4\unit{\kilo\ohm}$, $R_f=33\unit{\kilo\ohm}$ και $C=4.7\unit{\nano\farad}$ δίδονται στο διάγραμμα \ref{plot:1_lab_voltages}.
+		Οι κυματομορφές $V_{\mathrm{out}}, V_1$ και $V_2$ του κυκλώματος \ref{circ:1_schematic} σε διάστημα  $1.184\unit{\milli\second}$ για $R_1=47\kohm$, $R_2=4.7\kohm$, $R_v=39.4\kohm\Rightarrow R=40.4\kohm$, $R_f=33\kohm$ και $C=4.7\unit{\nano\farad}$ δίδονται στο διάγραμμα \ref{plot:1_lab_voltages}.
 
 		\begin{chart}[H]
 			\begin{center}

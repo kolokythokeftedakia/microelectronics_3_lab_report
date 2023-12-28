@@ -5,23 +5,23 @@
 \end{equation*}
 όπου $t_a$ είναι μία χρονική στιγμή κατά την οποία η έξοδος του 555, $V_1$, περνάει από LOW σε HIGH και $t_b=t_a+t_{\mathrm{on}}$, όπου $t_{\mathrm{on}}$ η διάρκεια ενός διαστήματος στο οποίο η $V_1$ παραμένει σε HIGH. Με αριθμητική αντικατάσταση προκύπτει
 \begin{equation*}
-	0.6\unit{\volt}=\frac{2}{10\unit{\kilo\ohm}\cdot 1\unit{\micro\farad}}15\unit{\volt}\cdot t_{\mathrm{on}}\Rightarrow t_{\mathrm{on}}=400\unit{\micro\second}.
+	0.6\unit{\volt}=\frac{2}{10\kohm\cdot 1\unit{\micro\farad}}15\unit{\volt}\cdot t_{\mathrm{on}}\Rightarrow t_{\mathrm{on}}=400\unit{\micro\second}.
 \end{equation*}
 
 Εξαιτίας των διόδων στον ασταθή Α, ο πυκνωτής χωρητικότητας $C_1=0.1\unit{\micro\farad}$, του ασταθούς  Α, φορτίζεται προς $V_{CC}$ μόνο μέσω της $R_1$ και εκφορτίζεται προς τη γείωση μόνο μέσω της $R_2$. Επομένως είναι $t_{\mathrm{on}}=0.693\cdot C_1\cdot R_1$ και $t_{\mathrm{off}}=0.693\cdot C_1\cdot R_2$. Επιπλέον, η συνολική διάρκεια ενός βήματος είναι $t_s=t_{\mathrm{on}}+t_{\mathrm{off}}$. Με αριθμητική αντικατάσταση στην τελευταία σχέση προκύπτει $t_{\mathrm{off}}=3.6\unit{\ms}$.
 \begin{equation*}
-	R_1=\frac{t_{\mathrm{on}}}{0.693\cdot C_1}=\frac{0.4\unit{\ms}}{0.693\cdot 0.1\unit{\micro\farad}}\Rightarrow R_1=5.772\unit{\kilo\ohm}
+	R_1=\frac{t_{\mathrm{on}}}{0.693\cdot C_1}=\frac{0.4\unit{\ms}}{0.693\cdot 0.1\unit{\micro\farad}}\Rightarrow R_1=5.772\kohm
 \end{equation*}
 και
 \begin{equation*}
-	R_2=\frac{t_{\mathrm{off}}}{0.693\cdot C_1}=\frac{3.6\unit{\ms}}{0.693\cdot 0.1\unit{\micro\farad}}\Rightarrow R_2=51.948\unit{\kilo\ohm}.
+	R_2=\frac{t_{\mathrm{off}}}{0.693\cdot C_1}=\frac{3.6\unit{\ms}}{0.693\cdot 0.1\unit{\micro\farad}}\Rightarrow R_2=51.948\kohm.
 \end{equation*}
 
 Περνώντας στον ασταθή πολυδονητή Β, ο πυκνωτής χωρητικότητας $C_2=0.1\unit{\micro\farad}$ φορτίζεται μέσω της $R_A$ και εκφορτίζεται προς τη γείωση μέσω της $R_B$. Συνεπώς, $t_o=t_{\mathrm{L}}=1.1R_B\cdot C_2$ και $t_{\mathrm{H}}=1.1R_A\cdot C_2$. Δηλαδή
 \begin{equation*}
-	R_Α=\frac{t_{\mathrm{H}}}{1.1\cdot C_2}=\frac{3\unit{\ms}}{1.1\cdot 0.1\unit{\micro\farad}}\Rightarrow R_A=27.272\unit{\kilo\ohm}
+	R_Α=\frac{t_{\mathrm{H}}}{1.1\cdot C_2}=\frac{3\unit{\ms}}{1.1\cdot 0.1\unit{\micro\farad}}\Rightarrow R_A=27.272\kohm
 \end{equation*}
 και
 \begin{equation*}
-	R_B=\frac{t_{\mathrm{L}}}{1.1\cdot C_2}=\frac{20\unit{\ms}}{1.1\cdot 0.1\unit{\micro\farad}}\Rightarrow R_B=181.818\unit{\kilo\ohm}.
+	R_B=\frac{t_{\mathrm{L}}}{1.1\cdot C_2}=\frac{20\unit{\ms}}{1.1\cdot 0.1\unit{\micro\farad}}\Rightarrow R_B=181.818\kohm.
 \end{equation*}
