@@ -9,13 +9,13 @@
 
 Οι προσομοιώσεις έγιναν με το κύκλωμα \ref{circ:spice:1_schematic}. Οι δίοδοι Zener\footnote{Χρησιμοποιήθηκαν δεδομένα από data sheet της διόδου 1N5236B του εμπορίου.}, D1 και D2, δημιουργήθηκαν χρήσει του \textsl{PSpice Modeling Application}. Η τάση Zener των διόδων ορίστηκε $V_Z=7.5\unit{\volt}$ και ο θερμοκρασιακός συντελεστής ορίσθηκε στο $0.058\displaystyle{\sfrac{\%}{\unit{\celsius}}}$.
 
-\begin{chart}[H]
+\begin{plot_fig}[H]
 	\begin{center}
 		\includegraphics[width=15cm]{spice_01/q4.pdf}
 		\caption{Οι τάσεις $v_1$ (πράσινη κυματομορφή), $v_2$ (κόκκινη κυματομορφή) και $v_{\mathrm{out}}$ (μπλε κυμματομορή) και το ρεύμα $i_z$ (πορτοκαλί κυματομορφή).}
 		\label{plot:ask1:q4}
 	\end{center}
-\end{chart}
+\end{plot_fig}
 
 Οι περίοδοι των κυματομορφών βρέθηκαν με τη βοήθεια των cursors ενώ τα μέγιστα και ελάχιστα των κυματομορφών βρέθηκαν χρήσει των συναρτήσεων \texttt{Max()} και \texttt{Min()}. Τα αποτελεσματα φαίνονται στον πίνακα \ref{table:ask1:q4:periods}.
 
