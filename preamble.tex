@@ -6,7 +6,7 @@
 \usepackage{fancyhdr}
 \usepackage{float,newfloat}
 \usepackage{graphicx}
-\usepackage{tabularx,longtable,multirow,subfigure,caption}
+\usepackage{booktabs,tabularx,longtable,multirow,subfigure,caption}
 \def\greekOptions{chapterhead=unchanged}
 \usepackage[english,main=greek]{babel}
 \usepackage{amsmath,amsfonts,amssymb,mathtools,xfrac,halloweenmath}
@@ -32,6 +32,7 @@ bookmarksopen=true}
 \usepackage{etoolbox}
 \usepackage{pgfplots}
 \usepackage{wrapfig}
+\usepackage{multicol}
 \usepackage[language=greek,bibencoding=utf8,backend=biber]{biblatex}
 \addbibresource{references.bib}
 
@@ -51,7 +52,7 @@ bookmarksopen=true}
 \newcommand{\lb}{\llbracket}
 \newcommand{\rb}{\rrbracket}
 \newcommand{\kohm}{\unit{\kilo\ohm}}
-\newcommand{\qed}{{\hfill\raggedright$\blacksquare$\par}}
+% \newcolumntype{?}{!{\vrule width 1.25pt}}
 \setlength{\headheight}{14.5pt}
 \renewcommand{\headrulewidth}{0.1pt}
 \renewcommand{\footrulewidth}{0.1pt}

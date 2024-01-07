@@ -1,0 +1,175 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{malvino}{book}{}
+      \name{author}{2}{}{%
+        {{hash=3d2e3922795dd87c96e97a7f43cc98ab}{%
+           family={Bates},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=89cb159584c2abac0957252fb0e79b7e}{%
+           family={Malvino},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill US Higher Ed USE Legacy}%
+      }
+      \strng{namehash}{0f7357c7c522dd2913652f841bc26f6c}
+      \strng{fullhash}{0f7357c7c522dd2913652f841bc26f6c}
+      \strng{bibnamehash}{0f7357c7c522dd2913652f841bc26f6c}
+      \strng{authorbibnamehash}{0f7357c7c522dd2913652f841bc26f6c}
+      \strng{authornamehash}{0f7357c7c522dd2913652f841bc26f6c}
+      \strng{authorfullhash}{0f7357c7c522dd2913652f841bc26f6c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781259200144}
+      \field{title}{Electronic Principles}
+      \field{year}{2015}
+    \endentry
+    \entry{artofelectronics}{book}{}
+      \name{author}{2}{}{%
+        {{hash=824849c061562c13dda5359277abcbe0}{%
+           family={Horowitz},
+           familyi={H\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=a6f0ca7031291d4aeed4a0ba41460b02}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{b45afa59dd1ebe0091dd0e1ae5b3dd39}
+      \strng{fullhash}{b45afa59dd1ebe0091dd0e1ae5b3dd39}
+      \strng{bibnamehash}{b45afa59dd1ebe0091dd0e1ae5b3dd39}
+      \strng{authorbibnamehash}{b45afa59dd1ebe0091dd0e1ae5b3dd39}
+      \strng{authornamehash}{b45afa59dd1ebe0091dd0e1ae5b3dd39}
+      \strng{authorfullhash}{b45afa59dd1ebe0091dd0e1ae5b3dd39}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780521809269}
+      \field{title}{The Art of Electronics}
+      \field{year}{2015}
+    \endentry
+    \entry{jaeger}{book}{}
+      \name{author}{2}{}{%
+        {{hash=953d57f880bff8515326296750bd8c89}{%
+           family={Jaeger},
+           familyi={J\bibinitperiod},
+           given={R.C.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a685e64e5638ff95b34189440dd2c4af}{%
+           family={Blalock},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill Education}%
+      }
+      \strng{namehash}{87c508a6a0efb6ff934a14835bb73373}
+      \strng{fullhash}{87c508a6a0efb6ff934a14835bb73373}
+      \strng{bibnamehash}{87c508a6a0efb6ff934a14835bb73373}
+      \strng{authorbibnamehash}{87c508a6a0efb6ff934a14835bb73373}
+      \strng{authornamehash}{87c508a6a0efb6ff934a14835bb73373}
+      \strng{authorfullhash}{87c508a6a0efb6ff934a14835bb73373}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780073529608}
+      \field{title}{Microelectronic Circuit Design}
+      \field{year}{2015}
+    \endentry
+    \entry{scherz}{book}{}
+      \name{author}{2}{}{%
+        {{hash=d882ffe002e13ad32fe6789291a0faa2}{%
+           family={Scherz},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=b9c9f88ae3ed4782a3d0bf1f909e6404}{%
+           family={Monk},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw Hill LLC}%
+      }
+      \strng{namehash}{deb51912341fcccc12695d04df370574}
+      \strng{fullhash}{deb51912341fcccc12695d04df370574}
+      \strng{bibnamehash}{deb51912341fcccc12695d04df370574}
+      \strng{authorbibnamehash}{deb51912341fcccc12695d04df370574}
+      \strng{authornamehash}{deb51912341fcccc12695d04df370574}
+      \strng{authorfullhash}{deb51912341fcccc12695d04df370574}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781259587559}
+      \field{title}{Practical Electronics for Inventors, Fourth Edition}
+      \field{year}{2016}
+    \endentry
+    \entry{sedra}{book}{}
+      \name{author}{2}{}{%
+        {{hash=6a3b22fe544fa58cf6a67562f622e136}{%
+           family={Sedra},
+           familyi={S\bibinitperiod},
+           given={A.S.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d7c5de07714b90ca4c3ded197895c59e}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={K.C.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{7899d80d0ce5a88c33f764ff6238bd3e}
+      \strng{fullhash}{7899d80d0ce5a88c33f764ff6238bd3e}
+      \strng{bibnamehash}{7899d80d0ce5a88c33f764ff6238bd3e}
+      \strng{authorbibnamehash}{7899d80d0ce5a88c33f764ff6238bd3e}
+      \strng{authornamehash}{7899d80d0ce5a88c33f764ff6238bd3e}
+      \strng{authorfullhash}{7899d80d0ce5a88c33f764ff6238bd3e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780199339136}
+      \field{title}{Microelectronic Circuits}
+      \field{year}{2015}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
