@@ -11,15 +11,7 @@ pdf: main.tex
 
 # UNIX-like
 clean:
-	rm *.log || true
-	rm *.out || true
-	rm *.aux || true
-	rm *.bbl || true
-	rm *.bcf || true
-	rm *.blg || true
-	rm *.xml || true
-	rm *.toc || true
-	rm main.synctex.gz || true
+	rm -f *.log *.out *.aux *.bbl *.bcf *.blg *.xml *.toc main.synctex.gz
 
 # Windows
 w_clean:
